@@ -1,0 +1,33 @@
+# This is a descriptive map, not a home for operational artifacts.
+__pycache__/
+*.pyc
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite*
+*.db
+*.log
+*.tar
+*.tar.gz
+*.zip
+*.ipynb
+*.png
+*.jpg
+*.mp4
+*.pdf
+.env
+.env.*
+!*.placeholder.md
+
+# Keep only descriptive notes in dependency/build/runtime directories.
+server/home/tabahi/.nvm/**
+!server/home/tabahi/.nvm/**/
+!server/home/tabahi/.nvm/**/_CONTEXT.md
+server/home/tabahi/kdg-dev/kdg-api/.venv/**
+!server/home/tabahi/kdg-dev/kdg-api/.venv/_CONTEXT.md
+server/home/tabahi/kdg-dev/kdg-frontend/cloud-command-center-main/node_modules/**
+!server/home/tabahi/kdg-dev/kdg-frontend/cloud-command-center-main/node_modules/_CONTEXT.md
+server/home/tabahi/kdg-dev/kdg-frontend/cloud-command-center-main/.output/**
+!server/home/tabahi/kdg-dev/kdg-frontend/cloud-command-center-main/.output/**/
+!server/home/tabahi/kdg-dev/kdg-frontend/cloud-command-center-main/.output/**/_CONTEXT.md

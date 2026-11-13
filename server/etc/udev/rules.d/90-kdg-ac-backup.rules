@@ -1,0 +1,2 @@
+# PLACEHOLDER: charger-unplug rule invoking the emergency Minecraft save helper.
+# Instant loss of power cannot guarantee completion; actual udev rule omitted.

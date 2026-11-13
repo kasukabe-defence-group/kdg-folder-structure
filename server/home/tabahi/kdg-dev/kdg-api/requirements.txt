@@ -1,0 +1,2 @@
+# PLACEHOLDER: backend Python dependencies; not an installable requirements list.
+# Obtain the actual requirements from the backend source before building.

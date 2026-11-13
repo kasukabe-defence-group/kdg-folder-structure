@@ -1,0 +1,2 @@
+# PLACEHOLDER: intended emergency world save before shutdown/reboot and Docker stop.
+# No guarantee for abrupt power loss; actual systemd unit omitted.

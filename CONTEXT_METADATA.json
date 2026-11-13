@@ -1,0 +1,31 @@
+{
+  "purpose": "LLM context and descriptive filesystem placeholders only",
+  "reconstructedOn": "2026-11-13",
+  "liveFilesystemVerified": false,
+  "serverStateAtPreparation": "reported offline",
+  "evidence": [
+    "Prior KDG deployment conversation and command results",
+    "PROGRESS_HANDOFF_2026-11-12.md in the local working directory",
+    "Saved local backend and frontend source copies",
+    "Local server-home installation scripts"
+  ],
+  "pathPrefix": "server/ represents the Linux filesystem root /",
+  "runtimeDirectories": "Conditional structure; current contents and existence are not verified",
+  "unknownPaths": [
+    "Docker Compose file location",
+    "Nextcloud and database volume names and host storage paths",
+    "Docker data-root",
+    "playit binary, secret, and service-file locations",
+    "Complete list of user workspaces and Minecraft servers",
+    "Additional systemd drop-ins and source files"
+  ],
+  "implementationPolicy": {
+    "planning": "compact",
+    "contextDepth": "dependency",
+    "verificationDepth": "impact",
+    "delegation": "none",
+    "reasonCodes": ["new context-only repository", "multiple placeholder files", "prevent secret publication"],
+    "allowedWriteScope": "work/kdg-folder-structure only",
+    "verification": "scripts/validate_context.py and Git remote commit comparison"
+  }
+}
